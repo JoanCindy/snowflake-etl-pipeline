@@ -22,7 +22,7 @@ Key functions
 - [`main.run_pipeline`](scripts/main.py)
 
 Requirements
-- Python 3.8+
+- Python 3.9+
 - Libraries: requests, beautifulsoup4, pandas, openpyxl, snowflake-connector-python, python-dotenv, lxml
 
 Install dependencies:
@@ -55,7 +55,8 @@ This executes:
 extraction via extract.get_book_data and extract.save_raw_data,
 transformation via transform.transform_data and transform.save_processed_data,
 loading via load.load_data_to_snowflake.
-Notes and caveats
+
+Notes 
 
 The project currently writes processed output as Excel (see scripts/transform.py). Update output_path_trans in scripts/.env if you prefer CSV.
 There are two extract modules (scripts/extract.py and scripts/Extract.py). Use the lowercase scripts/extract.py imported by scripts/main.py.
