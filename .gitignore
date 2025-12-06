@@ -1,0 +1,17 @@
+# Environment
+.env
+.env.*
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and database folders
+data/
+database/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
