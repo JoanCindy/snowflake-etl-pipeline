@@ -8,7 +8,6 @@ Project files
 - [scripts/.env](scripts/.env)
 - [scripts/main.py](scripts/main.py)
 - [scripts/extract.py](scripts/extract.py)
-- [scripts/Extract.py](scripts/Extract.py)
 - [scripts/transform.py](scripts/transform.py)
 - [scripts/load.py](scripts/load.py)
 
