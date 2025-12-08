@@ -3,9 +3,6 @@
 Simple ETL pipeline that scrapes book data, transforms it and loads it to Snowflake.
 
 Project files
-- [dashboard/](dashboard/)
-- [database/](database/)
-- [scripts/.env](scripts/.env)
 - [scripts/main.py](scripts/main.py)
 - [scripts/extract.py](scripts/extract.py)
 - [scripts/transform.py](scripts/transform.py)
@@ -58,7 +55,6 @@ loading via load.load_data_to_snowflake.
 Notes 
 
 The project currently writes processed output as Excel (see scripts/transform.py). Update output_path_trans in scripts/.env if you prefer CSV.
-There are two extract modules (scripts/extract.py and scripts/Extract.py). Use the lowercase scripts/extract.py imported by scripts/main.py.
 The Snowflake table targeted by the loader is BOOK_FINAL (see scripts/load.py). Ensure the table schema matches the columns: title, price, link, in_stock, rating_number.
 Data cleaning logic is in transform.transform_data (price parsing, availability -> boolean, rating mapping)
 
