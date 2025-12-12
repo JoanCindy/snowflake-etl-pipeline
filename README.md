@@ -1,4 +1,5 @@
 # E-commerce Data Pipeline
+![Capture Workflow](images\Capture d'écran 2025-12-12 181209.png)
 
 Simple ETL pipeline that scrapes book data, transforms it and loads it to Snowflake.
 
